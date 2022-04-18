@@ -1,0 +1,149 @@
+body {
+  display: block;
+  gap: 1rem;
+  background-color: #076324;
+  background-image: url("http://www.transparenttextures.com/patterns/black-felt.png");
+  color: rgb(251, 243, 212);
+  font-family: "Space Mono", monospace;
+}
+h1 {
+  text-align: center;
+  font-size: 70px;
+  text-shadow: black;
+}
+.game-container {
+  display: flex;
+  margin: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+.payout-container {
+  border: 1px solid black;
+  margin: 20px;
+  width: 1050px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(251, 243, 212);
+  font-size: 15px;
+  background-color: rgb(1, 40, 2);
+}
+
+.score-container {
+  border: 1px solid black;
+  width: 200px;
+  height: 80px;
+  text-align: center;
+}
+
+.deck-container {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  margin: 20px;
+}
+.game-message {
+  display: flex;
+  margin: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.message {
+  font-size: 20px;
+  color: rgb(251, 243, 212);
+  display: flex;
+  margin: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+#button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+  height: 200px;
+  width: 600px;
+}
+
+.starting-points {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  margin-right: 30px;
+  text-align: center;
+  width: 100px;
+  height: 90px;
+  font-family: "Space Mono", monospace;
+  border-radius: 50%;
+  border: 10px dashed;
+  background: rgb(190, 127, 2);
+  box-shadow: 0 0 20px #f2410b;
+  color: rgb(251, 243, 212);
+}
+
+.starting-bet {
+  font-size: 18px;
+  width: 100px;
+  height: 90px;
+  margin-left: 15px;
+  margin-right: 80px;
+  border-radius: 50%;
+  border: 10px dashed;
+  background: rgb(2, 46, 2);
+  color: rgb(251, 243, 212);
+  box-shadow: 0 0 15px #d5eca3;
+  font-family: "Space Mono", monospace;
+}
+
+.deal-button {
+  position: relative;
+  font-size: 18px;
+  width: 100px;
+  height: 90px;
+  border: 10px dashed;
+  margin-left: 20px;
+  border-radius: 50%;
+  background: rgb(1, 40, 2);
+  box-shadow: 0 0 20px #d5eca3;
+  color: rgb(251, 243, 212);
+  font-family: "Space Mono", monospace;
+}
+.redraw-button {
+  position: relative;
+  font-size: 18px;
+  width: 100px;
+  height: 90px;
+  margin-left: 20px;
+  border-radius: 50%;
+  border: 10px dashed;
+  background: rgb(1, 40, 2);
+  box-shadow: 0 0px 20px #d5eca3;
+  color: rgb(251, 243, 212);
+  font-family: "Space Mono", monospace;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  width: 100px;
+  height: 140px;
+  margin: 10px;
+  border-radius: 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.card.selected {
+  border-radius: 5%;
+  width: 120px;
+  height: 160px;
+}

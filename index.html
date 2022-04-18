@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Video Poker</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1 id="header">Video Poker</h1>
+    <div id="game-container" class="game-container">
+      <div id="payout-container" class="payout-container">
+        <h3 class="payouts">Payouts</h3>
+      </div>
+      <div id="deck" class="deck-container"></div>
+      <div id="game-message" class="message"></div>
+      <div id="button-container">
+        <h4 id="starting-points" class="starting-points">points</h4>
+        <button id="starting-bet" class="starting-bet"></button>
+        <button id="deal" class="deal-button">DEAL</button>
+      </div>
+    </div>
+
+    <!-- Import program logic -->
+    <script src="deckofcard.js"></script>
+    <script src="game-func.js"></script>
+  </body>
+</html>
